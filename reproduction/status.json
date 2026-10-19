@@ -1,0 +1,18 @@
+{
+  "stage": "complete_l_coco",
+  "updated_at": "2026-10-19T11:12:23.287919+08:00",
+  "model": "D-FINE-L",
+  "batch_size": 32,
+  "epochs": 74,
+  "activation_offload": false,
+  "block_activation_checkpointing": true,
+  "objects365": "deferred_by_user",
+  "result": "/home/ubuntu/文档/ZHJ_UAV/D-FINE/reproduction/self_trained_l_coco_metrics.json",
+  "completed_pipeline_pid": 2728528,
+  "selected_scope_complete": true,
+  "selected_experiment": "D-FINE-L COCO main experiment",
+  "completed_epochs": 74,
+  "AP_percent": 53.95123817940728,
+  "audited_at": "2026-10-19T15:30:31.523647+08:00",
+  "evaluation_audit": "/home/ubuntu/文档/ZHJ_UAV/D-FINE/reproduction/evaluation_audit/evaluation_audit.json"
+}

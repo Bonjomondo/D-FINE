@@ -1,0 +1,16 @@
+__include__:
+- ../../configs/dfine/dfine_hgnetv2_s_coco.yml
+epochs: 124
+output_dir: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/output/paper_s_coco_seed0"
+HGNetv2:
+  local_model_dir: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/weight/hgnetv2/"
+train_dataloader:
+  dataset:
+    img_folder: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/coco2017/train2017/"
+    ann_file: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/coco2017/annotations/instances_train2017.json"
+  total_batch_size: 32
+val_dataloader:
+  dataset:
+    img_folder: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/coco2017/val2017/"
+    ann_file: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/coco2017/annotations/instances_val2017.json"
+  total_batch_size: 16

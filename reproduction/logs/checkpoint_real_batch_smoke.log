@@ -1,0 +1,110 @@
+[92mIf the pretrained HGNetV2 can't be downloaded automatically. Please check your network connection.[0m
+[92mPlease check your network connection. Or download the model manually from [0mhttps://github.com/Peterande/storage/releases/download/dfinev1.0/PPHGNetV2_B4_stage1.pth[92m to [0m/home/ubuntu/文档/ZHJ_UAV/D-FINE/weight/hgnetv2/.[0m
+Loaded stage1 B4 HGNetV2 from URL.
+Loaded stage1 B4 HGNetV2 from URL.
+building train_dataloader with batch_size=32...
+loading annotations into memory...
+Done (t=0.25s)
+creating index...
+index created!
+/home/ubuntu/文档/ZHJ_UAV/D-FINE/src/core/workspace.py:178: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  return module(**module_kwargs)
+Initial lr: [1.25e-05, 0.00025, 0.00025]
+/home/ubuntu/文档/ZHJ_UAV/D-FINE/src/solver/det_engine.py:125: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  if not math.isfinite(loss_value):
+Epoch: [0/74]  [0/1]  eta: 0:00:01  lr: 0.000000  loss: 54.6567 (54.6567)  loss_vfl: 0.3550 (0.3550)  loss_bbox: 1.2694 (1.2694)  loss_giou: 1.8245 (1.8245)  loss_fgl: 0.4063 (0.4063)  loss_vfl_aux_0: 0.3486 (0.3486)  loss_bbox_aux_0: 1.2694 (1.2694)  loss_giou_aux_0: 1.8245 (1.8245)  loss_fgl_aux_0: 0.4063 (0.4063)  loss_ddf_aux_0: 0.0000 (0.0000)  loss_vfl_aux_1: 0.3694 (0.3694)  loss_bbox_aux_1: 1.2694 (1.2694)  loss_giou_aux_1: 1.8245 (1.8245)  loss_fgl_aux_1: 0.4063 (0.4063)  loss_ddf_aux_1: 0.0000 (0.0000)  loss_vfl_aux_2: 0.3467 (0.3467)  loss_bbox_aux_2: 1.2694 (1.2694)  loss_giou_aux_2: 1.8245 (1.8245)  loss_fgl_aux_2: 0.4063 (0.4063)  loss_ddf_aux_2: 0.0000 (0.0000)  loss_vfl_aux_3: 0.3367 (0.3367)  loss_bbox_aux_3: 1.2694 (1.2694)  loss_giou_aux_3: 1.8245 (1.8245)  loss_fgl_aux_3: 0.4063 (0.4063)  loss_ddf_aux_3: 0.0000 (0.0000)  loss_vfl_aux_4: 0.3472 (0.3472)  loss_bbox_aux_4: 1.2694 (1.2694)  loss_giou_aux_4: 1.8245 (1.8245)  loss_fgl_aux_4: 0.4063 (0.4063)  loss_ddf_aux_4: 0.0000 (0.0000)  loss_vfl_pre: 0.3486 (0.3486)  loss_bbox_pre: 1.2694 (1.2694)  loss_giou_pre: 1.8245 (1.8245)  loss_vfl_enc_0: 0.3628 (0.3628)  loss_bbox_enc_0: 1.2694 (1.2694)  loss_giou_enc_0: 1.8245 (1.8245)  loss_vfl_dn_0: 0.8208 (0.8208)  loss_bbox_dn_0: 0.6617 (0.6617)  loss_giou_dn_0: 1.3642 (1.3642)  loss_fgl_dn_0: 0.8252 (0.8252)  loss_ddf_dn_0: 0.0000 (0.0000)  loss_vfl_dn_1: 0.8247 (0.8247)  loss_bbox_dn_1: 0.6617 (0.6617)  loss_giou_dn_1: 1.3642 (1.3642)  loss_fgl_dn_1: 0.8252 (0.8252)  loss_ddf_dn_1: 0.0000 (0.0000)  loss_vfl_dn_2: 0.7642 (0.7642)  loss_bbox_dn_2: 0.6617 (0.6617)  loss_giou_dn_2: 1.3642 (1.3642)  loss_fgl_dn_2: 0.8252 (0.8252)  loss_ddf_dn_2: 0.0000 (0.0000)  loss_vfl_dn_3: 0.7476 (0.7476)  loss_bbox_dn_3: 0.6617 (0.6617)  loss_giou_dn_3: 1.3642 (1.3642)  loss_fgl_dn_3: 0.8252 (0.8252)  loss_ddf_dn_3: 0.0000 (0.0000)  loss_vfl_dn_4: 0.7827 (0.7827)  loss_bbox_dn_4: 0.6617 (0.6617)  loss_giou_dn_4: 1.3642 (1.3642)  loss_fgl_dn_4: 0.8252 (0.8252)  loss_ddf_dn_4: 0.0000 (0.0000)  loss_vfl_dn_5: 0.7598 (0.7598)  loss_bbox_dn_5: 0.6617 (0.6617)  loss_giou_dn_5: 1.3642 (1.3642)  loss_fgl_dn_5: 0.8252 (0.8252)  loss_ddf_dn_5: 0.0000 (0.0000)  loss_vfl_dn_pre: 0.8208 (0.8208)  loss_bbox_dn_pre: 0.6617 (0.6617)  loss_giou_dn_pre: 1.3642 (1.3642)  time: 1.9951  data: 0.0000  max mem: 10505
+Epoch: [0/74] Total time: 0:00:01 (1.9958 s / it)
+Averaged stats: lr: 0.000000  loss: 54.6567 (54.6567)  loss_vfl: 0.3550 (0.3550)  loss_bbox: 1.2694 (1.2694)  loss_giou: 1.8245 (1.8245)  loss_fgl: 0.4063 (0.4063)  loss_vfl_aux_0: 0.3486 (0.3486)  loss_bbox_aux_0: 1.2694 (1.2694)  loss_giou_aux_0: 1.8245 (1.8245)  loss_fgl_aux_0: 0.4063 (0.4063)  loss_ddf_aux_0: 0.0000 (0.0000)  loss_vfl_aux_1: 0.3694 (0.3694)  loss_bbox_aux_1: 1.2694 (1.2694)  loss_giou_aux_1: 1.8245 (1.8245)  loss_fgl_aux_1: 0.4063 (0.4063)  loss_ddf_aux_1: 0.0000 (0.0000)  loss_vfl_aux_2: 0.3467 (0.3467)  loss_bbox_aux_2: 1.2694 (1.2694)  loss_giou_aux_2: 1.8245 (1.8245)  loss_fgl_aux_2: 0.4063 (0.4063)  loss_ddf_aux_2: 0.0000 (0.0000)  loss_vfl_aux_3: 0.3367 (0.3367)  loss_bbox_aux_3: 1.2694 (1.2694)  loss_giou_aux_3: 1.8245 (1.8245)  loss_fgl_aux_3: 0.4063 (0.4063)  loss_ddf_aux_3: 0.0000 (0.0000)  loss_vfl_aux_4: 0.3472 (0.3472)  loss_bbox_aux_4: 1.2694 (1.2694)  loss_giou_aux_4: 1.8245 (1.8245)  loss_fgl_aux_4: 0.4063 (0.4063)  loss_ddf_aux_4: 0.0000 (0.0000)  loss_vfl_pre: 0.3486 (0.3486)  loss_bbox_pre: 1.2694 (1.2694)  loss_giou_pre: 1.8245 (1.8245)  loss_vfl_enc_0: 0.3628 (0.3628)  loss_bbox_enc_0: 1.2694 (1.2694)  loss_giou_enc_0: 1.8245 (1.8245)  loss_vfl_dn_0: 0.8208 (0.8208)  loss_bbox_dn_0: 0.6617 (0.6617)  loss_giou_dn_0: 1.3642 (1.3642)  loss_fgl_dn_0: 0.8252 (0.8252)  loss_ddf_dn_0: 0.0000 (0.0000)  loss_vfl_dn_1: 0.8247 (0.8247)  loss_bbox_dn_1: 0.6617 (0.6617)  loss_giou_dn_1: 1.3642 (1.3642)  loss_fgl_dn_1: 0.8252 (0.8252)  loss_ddf_dn_1: 0.0000 (0.0000)  loss_vfl_dn_2: 0.7642 (0.7642)  loss_bbox_dn_2: 0.6617 (0.6617)  loss_giou_dn_2: 1.3642 (1.3642)  loss_fgl_dn_2: 0.8252 (0.8252)  loss_ddf_dn_2: 0.0000 (0.0000)  loss_vfl_dn_3: 0.7476 (0.7476)  loss_bbox_dn_3: 0.6617 (0.6617)  loss_giou_dn_3: 1.3642 (1.3642)  loss_fgl_dn_3: 0.8252 (0.8252)  loss_ddf_dn_3: 0.0000 (0.0000)  loss_vfl_dn_4: 0.7827 (0.7827)  loss_bbox_dn_4: 0.6617 (0.6617)  loss_giou_dn_4: 1.3642 (1.3642)  loss_fgl_dn_4: 0.8252 (0.8252)  loss_ddf_dn_4: 0.0000 (0.0000)  loss_vfl_dn_5: 0.7598 (0.7598)  loss_bbox_dn_5: 0.6617 (0.6617)  loss_giou_dn_5: 1.3642 (1.3642)  loss_fgl_dn_5: 0.8252 (0.8252)  loss_ddf_dn_5: 0.0000 (0.0000)  loss_vfl_dn_pre: 0.8208 (0.8208)  loss_bbox_dn_pre: 0.6617 (0.6617)  loss_giou_dn_pre: 1.3642 (1.3642)
+Epoch: [0/74]  [0/1]  eta: 0:00:00  lr: 0.000000  loss: 54.7327 (54.7327)  loss_vfl: 0.3550 (0.3550)  loss_bbox: 1.2694 (1.2694)  loss_giou: 1.8245 (1.8245)  loss_fgl: 0.4063 (0.4063)  loss_vfl_aux_0: 0.3486 (0.3486)  loss_bbox_aux_0: 1.2694 (1.2694)  loss_giou_aux_0: 1.8245 (1.8245)  loss_fgl_aux_0: 0.4063 (0.4063)  loss_ddf_aux_0: 0.0000 (0.0000)  loss_vfl_aux_1: 0.3694 (0.3694)  loss_bbox_aux_1: 1.2694 (1.2694)  loss_giou_aux_1: 1.8245 (1.8245)  loss_fgl_aux_1: 0.4063 (0.4063)  loss_ddf_aux_1: 0.0000 (0.0000)  loss_vfl_aux_2: 0.3467 (0.3467)  loss_bbox_aux_2: 1.2694 (1.2694)  loss_giou_aux_2: 1.8245 (1.8245)  loss_fgl_aux_2: 0.4063 (0.4063)  loss_ddf_aux_2: 0.0000 (0.0000)  loss_vfl_aux_3: 0.3367 (0.3367)  loss_bbox_aux_3: 1.2694 (1.2694)  loss_giou_aux_3: 1.8245 (1.8245)  loss_fgl_aux_3: 0.4063 (0.4063)  loss_ddf_aux_3: 0.0000 (0.0000)  loss_vfl_aux_4: 0.3472 (0.3472)  loss_bbox_aux_4: 1.2694 (1.2694)  loss_giou_aux_4: 1.8245 (1.8245)  loss_fgl_aux_4: 0.4063 (0.4063)  loss_ddf_aux_4: 0.0000 (0.0000)  loss_vfl_pre: 0.3486 (0.3486)  loss_bbox_pre: 1.2694 (1.2694)  loss_giou_pre: 1.8245 (1.8245)  loss_vfl_enc_0: 0.3628 (0.3628)  loss_bbox_enc_0: 1.2694 (1.2694)  loss_giou_enc_0: 1.8245 (1.8245)  loss_vfl_dn_0: 0.8413 (0.8413)  loss_bbox_dn_0: 0.6592 (0.6592)  loss_giou_dn_0: 1.3462 (1.3462)  loss_fgl_dn_0: 0.8371 (0.8371)  loss_ddf_dn_0: 0.0000 (0.0000)  loss_vfl_dn_1: 0.8413 (0.8413)  loss_bbox_dn_1: 0.6592 (0.6592)  loss_giou_dn_1: 1.3462 (1.3462)  loss_fgl_dn_1: 0.8371 (0.8371)  loss_ddf_dn_1: 0.0000 (0.0000)  loss_vfl_dn_2: 0.7852 (0.7852)  loss_bbox_dn_2: 0.6592 (0.6592)  loss_giou_dn_2: 1.3462 (1.3462)  loss_fgl_dn_2: 0.8371 (0.8371)  loss_ddf_dn_2: 0.0000 (0.0000)  loss_vfl_dn_3: 0.7734 (0.7734)  loss_bbox_dn_3: 0.6592 (0.6592)  loss_giou_dn_3: 1.3462 (1.3462)  loss_fgl_dn_3: 0.8371 (0.8371)  loss_ddf_dn_3: 0.0000 (0.0000)  loss_vfl_dn_4: 0.8057 (0.8057)  loss_bbox_dn_4: 0.6592 (0.6592)  loss_giou_dn_4: 1.3462 (1.3462)  loss_fgl_dn_4: 0.8371 (0.8371)  loss_ddf_dn_4: 0.0000 (0.0000)  loss_vfl_dn_5: 0.7803 (0.7803)  loss_bbox_dn_5: 0.6592 (0.6592)  loss_giou_dn_5: 1.3462 (1.3462)  loss_fgl_dn_5: 0.8371 (0.8371)  loss_ddf_dn_5: 0.0000 (0.0000)  loss_vfl_dn_pre: 0.8413 (0.8413)  loss_bbox_dn_pre: 0.6592 (0.6592)  loss_giou_dn_pre: 1.3462 (1.3462)  time: 0.8358  data: 0.0000  max mem: 10505
+Epoch: [0/74] Total time: 0:00:00 (0.8365 s / it)
+Averaged stats: lr: 0.000000  loss: 54.7327 (54.7327)  loss_vfl: 0.3550 (0.3550)  loss_bbox: 1.2694 (1.2694)  loss_giou: 1.8245 (1.8245)  loss_fgl: 0.4063 (0.4063)  loss_vfl_aux_0: 0.3486 (0.3486)  loss_bbox_aux_0: 1.2694 (1.2694)  loss_giou_aux_0: 1.8245 (1.8245)  loss_fgl_aux_0: 0.4063 (0.4063)  loss_ddf_aux_0: 0.0000 (0.0000)  loss_vfl_aux_1: 0.3694 (0.3694)  loss_bbox_aux_1: 1.2694 (1.2694)  loss_giou_aux_1: 1.8245 (1.8245)  loss_fgl_aux_1: 0.4063 (0.4063)  loss_ddf_aux_1: 0.0000 (0.0000)  loss_vfl_aux_2: 0.3467 (0.3467)  loss_bbox_aux_2: 1.2694 (1.2694)  loss_giou_aux_2: 1.8245 (1.8245)  loss_fgl_aux_2: 0.4063 (0.4063)  loss_ddf_aux_2: 0.0000 (0.0000)  loss_vfl_aux_3: 0.3367 (0.3367)  loss_bbox_aux_3: 1.2694 (1.2694)  loss_giou_aux_3: 1.8245 (1.8245)  loss_fgl_aux_3: 0.4063 (0.4063)  loss_ddf_aux_3: 0.0000 (0.0000)  loss_vfl_aux_4: 0.3472 (0.3472)  loss_bbox_aux_4: 1.2694 (1.2694)  loss_giou_aux_4: 1.8245 (1.8245)  loss_fgl_aux_4: 0.4063 (0.4063)  loss_ddf_aux_4: 0.0000 (0.0000)  loss_vfl_pre: 0.3486 (0.3486)  loss_bbox_pre: 1.2694 (1.2694)  loss_giou_pre: 1.8245 (1.8245)  loss_vfl_enc_0: 0.3628 (0.3628)  loss_bbox_enc_0: 1.2694 (1.2694)  loss_giou_enc_0: 1.8245 (1.8245)  loss_vfl_dn_0: 0.8413 (0.8413)  loss_bbox_dn_0: 0.6592 (0.6592)  loss_giou_dn_0: 1.3462 (1.3462)  loss_fgl_dn_0: 0.8371 (0.8371)  loss_ddf_dn_0: 0.0000 (0.0000)  loss_vfl_dn_1: 0.8413 (0.8413)  loss_bbox_dn_1: 0.6592 (0.6592)  loss_giou_dn_1: 1.3462 (1.3462)  loss_fgl_dn_1: 0.8371 (0.8371)  loss_ddf_dn_1: 0.0000 (0.0000)  loss_vfl_dn_2: 0.7852 (0.7852)  loss_bbox_dn_2: 0.6592 (0.6592)  loss_giou_dn_2: 1.3462 (1.3462)  loss_fgl_dn_2: 0.8371 (0.8371)  loss_ddf_dn_2: 0.0000 (0.0000)  loss_vfl_dn_3: 0.7734 (0.7734)  loss_bbox_dn_3: 0.6592 (0.6592)  loss_giou_dn_3: 1.3462 (1.3462)  loss_fgl_dn_3: 0.8371 (0.8371)  loss_ddf_dn_3: 0.0000 (0.0000)  loss_vfl_dn_4: 0.8057 (0.8057)  loss_bbox_dn_4: 0.6592 (0.6592)  loss_giou_dn_4: 1.3462 (1.3462)  loss_fgl_dn_4: 0.8371 (0.8371)  loss_ddf_dn_4: 0.0000 (0.0000)  loss_vfl_dn_5: 0.7803 (0.7803)  loss_bbox_dn_5: 0.6592 (0.6592)  loss_giou_dn_5: 1.3462 (1.3462)  loss_fgl_dn_5: 0.8371 (0.8371)  loss_ddf_dn_5: 0.0000 (0.0000)  loss_vfl_dn_pre: 0.8413 (0.8413)  loss_bbox_dn_pre: 0.6592 (0.6592)  loss_giou_dn_pre: 1.3462 (1.3462)
+{
+  "status": "passed",
+  "scope": "val_images_training_engine_smoke_only",
+  "formal_training": false,
+  "batch_size": 32,
+  "image_size": [
+    800,
+    800
+  ],
+  "seconds": 2.9215913300868124,
+  "stats": {
+    "lr": 7.500000000000001e-08,
+    "loss": 54.732669830322266,
+    "loss_vfl": 0.35498046875,
+    "loss_bbox": 1.2693758010864258,
+    "loss_giou": 1.8245176076889038,
+    "loss_fgl": 0.4063434898853302,
+    "loss_vfl_aux_0": 0.3486328125,
+    "loss_bbox_aux_0": 1.2693758010864258,
+    "loss_giou_aux_0": 1.8245176076889038,
+    "loss_fgl_aux_0": 0.4063434898853302,
+    "loss_ddf_aux_0": 0.0,
+    "loss_vfl_aux_1": 0.369384765625,
+    "loss_bbox_aux_1": 1.2693758010864258,
+    "loss_giou_aux_1": 1.8245176076889038,
+    "loss_fgl_aux_1": 0.4063434898853302,
+    "loss_ddf_aux_1": 0.0,
+    "loss_vfl_aux_2": 0.3466796875,
+    "loss_bbox_aux_2": 1.2693758010864258,
+    "loss_giou_aux_2": 1.8245176076889038,
+    "loss_fgl_aux_2": 0.4063434898853302,
+    "loss_ddf_aux_2": 0.0,
+    "loss_vfl_aux_3": 0.336669921875,
+    "loss_bbox_aux_3": 1.2693758010864258,
+    "loss_giou_aux_3": 1.8245176076889038,
+    "loss_fgl_aux_3": 0.4063434898853302,
+    "loss_ddf_aux_3": 0.0,
+    "loss_vfl_aux_4": 0.34716796875,
+    "loss_bbox_aux_4": 1.2693758010864258,
+    "loss_giou_aux_4": 1.8245176076889038,
+    "loss_fgl_aux_4": 0.4063434898853302,
+    "loss_ddf_aux_4": 0.0,
+    "loss_vfl_pre": 0.3486328125,
+    "loss_bbox_pre": 1.2693758010864258,
+    "loss_giou_pre": 1.8245176076889038,
+    "loss_vfl_enc_0": 0.36279296875,
+    "loss_bbox_enc_0": 1.2693758010864258,
+    "loss_giou_enc_0": 1.8245176076889038,
+    "loss_vfl_dn_0": 0.84130859375,
+    "loss_bbox_dn_0": 0.6591697931289673,
+    "loss_giou_dn_0": 1.3461942672729492,
+    "loss_fgl_dn_0": 0.8370873332023621,
+    "loss_ddf_dn_0": 0.0,
+    "loss_vfl_dn_1": 0.84130859375,
+    "loss_bbox_dn_1": 0.6591697931289673,
+    "loss_giou_dn_1": 1.3461942672729492,
+    "loss_fgl_dn_1": 0.8370873332023621,
+    "loss_ddf_dn_1": 0.0,
+    "loss_vfl_dn_2": 0.78515625,
+    "loss_bbox_dn_2": 0.6591697931289673,
+    "loss_giou_dn_2": 1.3461942672729492,
+    "loss_fgl_dn_2": 0.8370873332023621,
+    "loss_ddf_dn_2": 0.0,
+    "loss_vfl_dn_3": 0.7734375,
+    "loss_bbox_dn_3": 0.6591697931289673,
+    "loss_giou_dn_3": 1.3461942672729492,
+    "loss_fgl_dn_3": 0.8370873332023621,
+    "loss_ddf_dn_3": 0.0,
+    "loss_vfl_dn_4": 0.8056640625,
+    "loss_bbox_dn_4": 0.6591697931289673,
+    "loss_giou_dn_4": 1.3461942672729492,
+    "loss_fgl_dn_4": 0.8370873332023621,
+    "loss_ddf_dn_4": 0.0,
+    "loss_vfl_dn_5": 0.7802734375,
+    "loss_bbox_dn_5": 0.6591697931289673,
+    "loss_giou_dn_5": 1.3461942672729492,
+    "loss_fgl_dn_5": 0.8370873332023621,
+    "loss_ddf_dn_5": 0.0,
+    "loss_vfl_dn_pre": 0.84130859375,
+    "loss_bbox_dn_pre": 0.6591697931289673,
+    "loss_giou_dn_pre": 1.3461942672729492
+  },
+  "peak_allocated_gib": 10.258974552154541,
+  "attempted_steps": 2,
+  "initial_amp_scale": 65536.0,
+  "final_amp_scale": 32768.0,
+  "finite_optimizer_update_verified": true,
+  "memory_strategy": "block_activation_checkpointing"
+}

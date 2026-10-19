@@ -1,0 +1,91 @@
+building val_dataloader with batch_size=16...
+loading annotations into memory...
+Done (t=0.25s)
+creating index...
+index created!
+Resume checkpoint from /home/ubuntu/文档/ZHJ_UAV/D-FINE/weight/official/dfine_l_coco.pth
+/home/ubuntu/文档/ZHJ_UAV/D-FINE/src/solver/_solver.py:244: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  state = torch.load(path, map_location="cpu")
+Load model.state_dict
+Not load criterion.state_dict
+Not load postprocessor.state_dict
+Load ema.state_dict from model.state_dict
+Test:  [  0/313]  eta: 0:04:51    time: 0.9306  data: 0.4048  max mem: 2203
+Test:  [ 10/313]  eta: 0:01:17    time: 0.2554  data: 0.0450  max mem: 2206
+Test:  [ 20/313]  eta: 0:01:05    time: 0.1865  data: 0.0184  max mem: 2208
+Test:  [ 30/313]  eta: 0:00:59    time: 0.1851  data: 0.0197  max mem: 2209
+Test:  [ 40/313]  eta: 0:00:55    time: 0.1861  data: 0.0117  max mem: 2211
+Test:  [ 50/313]  eta: 0:00:53    time: 0.1948  data: 0.0115  max mem: 2212
+Test:  [ 60/313]  eta: 0:00:50    time: 0.1953  data: 0.0117  max mem: 2214
+Test:  [ 70/313]  eta: 0:00:48    time: 0.1882  data: 0.0118  max mem: 2215
+Test:  [ 80/313]  eta: 0:00:46    time: 0.1870  data: 0.0115  max mem: 2216
+Test:  [ 90/313]  eta: 0:00:43    time: 0.1865  data: 0.0117  max mem: 2218
+Test:  [100/313]  eta: 0:00:41    time: 0.1856  data: 0.0109  max mem: 2219
+Test:  [110/313]  eta: 0:00:39    time: 0.1854  data: 0.0111  max mem: 2221
+Test:  [120/313]  eta: 0:00:37    time: 0.1867  data: 0.0115  max mem: 2222
+Test:  [130/313]  eta: 0:00:35    time: 0.1860  data: 0.0107  max mem: 2224
+Test:  [140/313]  eta: 0:00:33    time: 0.1870  data: 0.0103  max mem: 2225
+Test:  [150/313]  eta: 0:00:31    time: 0.1798  data: 0.0113  max mem: 2227
+Test:  [160/313]  eta: 0:00:29    time: 0.1795  data: 0.0122  max mem: 2228
+Test:  [170/313]  eta: 0:00:27    time: 0.1882  data: 0.0120  max mem: 2230
+Test:  [180/313]  eta: 0:00:25    time: 0.1879  data: 0.0115  max mem: 2231
+Test:  [190/313]  eta: 0:00:23    time: 0.1873  data: 0.0112  max mem: 2233
+Test:  [200/313]  eta: 0:00:21    time: 0.1895  data: 0.0127  max mem: 2234
+Test:  [210/313]  eta: 0:00:19    time: 0.1907  data: 0.0134  max mem: 2235
+Test:  [220/313]  eta: 0:00:17    time: 0.1884  data: 0.0119  max mem: 2237
+Test:  [230/313]  eta: 0:00:15    time: 0.1876  data: 0.0115  max mem: 2238
+Test:  [240/313]  eta: 0:00:13    time: 0.1884  data: 0.0120  max mem: 2240
+Test:  [250/313]  eta: 0:00:11    time: 0.1891  data: 0.0118  max mem: 2241
+Test:  [260/313]  eta: 0:00:10    time: 0.1887  data: 0.0121  max mem: 2243
+Test:  [270/313]  eta: 0:00:08    time: 0.1880  data: 0.0124  max mem: 2244
+Test:  [280/313]  eta: 0:00:06    time: 0.1879  data: 0.0121  max mem: 2246
+Test:  [290/313]  eta: 0:00:04    time: 0.1912  data: 0.0119  max mem: 2247
+Test:  [300/313]  eta: 0:00:02    time: 0.1917  data: 0.0128  max mem: 2249
+Test:  [310/313]  eta: 0:00:00    time: 0.1876  data: 0.0130  max mem: 2250
+Test:  [312/313]  eta: 0:00:00    time: 0.1839  data: 0.0125  max mem: 2250
+Test: Total time: 0:00:59 (0.1899 s / it)
+Metrics: {'f1': 0.6784375803331033, 'precision': 0.667234404939323, 'recall': 0.6900233934223201, 'iou': 0.444686844795146, 'TPs': 25072, 'FPs': 12504, 'FNs': 11263}
+Averaged stats: 
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished...
+DONE (t=0.77s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.716
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.365
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.719
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.395
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.730
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.565
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.774
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.893
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.920
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.790
+{
+  "scope": "official_checkpoint_evaluation_only",
+  "self_trained": false,
+  "images": 5000,
+  "model": "D-FINE-L",
+  "checkpoint": "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/weight/official/dfine_l_coco.pth",
+  "checkpoint_sha256": "f1d76b20c06610e03fa833ac9524337635e5e74204f22f4f8721174f19303d78",
+  "paper_AP_percent": 54.0,
+  "metrics_percent": {
+    "AP": 53.980919002329884,
+    "AP50": 71.63994567934128,
+    "AP75": 58.38118825367352,
+    "AP_small": 36.46807375382492,
+    "AP_medium": 58.02629357815601,
+    "AP_large": 71.89474283398884,
+    "AR_1": 39.540380891303656,
+    "AR_10": 66.44915163915829,
+    "AR_100": 73.02130044467471,
+    "AR_small": 56.51493541053449,
+    "AR_medium": 77.36825598578477,
+    "AR_large": 89.30016264458254
+  },
+  "torch": "2.14.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 5090 D v2"
+}

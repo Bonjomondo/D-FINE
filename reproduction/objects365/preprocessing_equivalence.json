@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "json_semantics_identical": true,
+  "image_bytes_identical": true,
+  "checked_images": 9,
+  "missing_image_skip_identical": true,
+  "reference_scripts": [
+    "tools/dataset/remap_obj365.py",
+    "tools/dataset/resize_obj365.py"
+  ]
+}

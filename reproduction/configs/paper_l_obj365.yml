@@ -1,0 +1,16 @@
+__include__:
+- ../../configs/dfine/objects365/dfine_hgnetv2_l_obj365.yml
+epochs: 21
+output_dir: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/output/paper_l_obj365_seed0"
+HGNetv2:
+  local_model_dir: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/weight/hgnetv2/"
+train_dataloader:
+  total_batch_size: 32
+  dataset:
+    img_folder: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/objects365/train/"
+    ann_file: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/objects365/train/new_zhiyuan_objv2_train_resized.json"
+val_dataloader:
+  total_batch_size: 16
+  dataset:
+    img_folder: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/objects365/val/"
+    ann_file: "/home/ubuntu/\u6587\u6863/ZHJ_UAV/datasets/objects365/val/new_zhiyuan_objv2_val_resized.json"

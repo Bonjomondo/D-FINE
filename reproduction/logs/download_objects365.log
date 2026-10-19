@@ -1,0 +1,235 @@
+{"stage": "downloading", "updated_at": "2026-10-17T14:13:07.736913+08:00", "pid": 2757871, "current": "val/zhiyuan_objv2_val.json", "completed_files": 0, "total_files": 97, "archive_bytes": 269422006, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/zhiyuan_objv2_val.json"}
+zhiyuan_objv2_val.json: part 6/17 complete
+zhiyuan_objv2_val.json: part 5/17 complete
+zhiyuan_objv2_val.json: part 8/17 complete
+zhiyuan_objv2_val.json: part 7/17 complete
+zhiyuan_objv2_val.json: part 1/17 complete
+zhiyuan_objv2_val.json: part 4/17 complete
+zhiyuan_objv2_val.json: part 2/17 complete
+zhiyuan_objv2_val.json: part 3/17 complete
+zhiyuan_objv2_val.json: part 9/17 complete
+zhiyuan_objv2_val.json: part 10/17 complete
+zhiyuan_objv2_val.json: part 16/17 complete
+zhiyuan_objv2_val.json: part 13/17 complete
+zhiyuan_objv2_val.json: part 14/17 complete
+zhiyuan_objv2_val.json: part 12/17 complete
+zhiyuan_objv2_val.json: part 11/17 complete
+zhiyuan_objv2_val.json: part 15/17 complete
+zhiyuan_objv2_val.json: part 17/17 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:13:33.633712+08:00", "pid": 2757871, "current": "val/zhiyuan_objv2_val.json", "completed_files": 0, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:13:33.634049+08:00", "pid": 2757871, "current": "train/zhiyuan_objv2_train.tar.gz", "completed_files": 1, "total_files": 97, "archive_bytes": 1336483164, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/zhiyuan_objv2_train.tar.gz"}
+zhiyuan_objv2_train.tar.gz: part 3/80 complete
+zhiyuan_objv2_train.tar.gz: part 1/80 complete
+zhiyuan_objv2_train.tar.gz: part 5/80 complete
+zhiyuan_objv2_train.tar.gz: part 4/80 complete
+zhiyuan_objv2_train.tar.gz: part 7/80 complete
+zhiyuan_objv2_train.tar.gz: part 6/80 complete
+zhiyuan_objv2_train.tar.gz: part 2/80 complete
+zhiyuan_objv2_train.tar.gz: part 8/80 complete
+zhiyuan_objv2_train.tar.gz: part 9/80 complete
+zhiyuan_objv2_train.tar.gz: part 12/80 complete
+zhiyuan_objv2_train.tar.gz: part 16/80 complete
+zhiyuan_objv2_train.tar.gz: part 10/80 complete
+zhiyuan_objv2_train.tar.gz: part 14/80 complete
+zhiyuan_objv2_train.tar.gz: part 11/80 complete
+zhiyuan_objv2_train.tar.gz: part 13/80 complete
+zhiyuan_objv2_train.tar.gz: part 15/80 complete
+zhiyuan_objv2_train.tar.gz: part 17/80 complete
+zhiyuan_objv2_train.tar.gz: part 20/80 complete
+zhiyuan_objv2_train.tar.gz: part 19/80 complete
+zhiyuan_objv2_train.tar.gz: part 23/80 complete
+zhiyuan_objv2_train.tar.gz: part 21/80 complete
+zhiyuan_objv2_train.tar.gz: part 18/80 complete
+zhiyuan_objv2_train.tar.gz: part 24/80 complete
+zhiyuan_objv2_train.tar.gz: part 22/80 complete
+curl: (18) transfer closed with 474016 bytes remaining to read
+curl: (18) transfer closed with 336726 bytes remaining to read
+curl: (18) transfer closed with 320342 bytes remaining to read
+curl: (18) transfer closed with 492374 bytes remaining to read
+curl: (18) transfer closed with 1057622 bytes remaining to read
+curl: (18) transfer closed with 1081813 bytes remaining to read
+curl: (18) transfer closed with 1491798 bytes remaining to read
+curl: (18) transfer closed with 1098582 bytes remaining to read
+zhiyuan_objv2_train.tar.gz: part 27/80 complete
+zhiyuan_objv2_train.tar.gz: part 26/80 complete
+zhiyuan_objv2_train.tar.gz: part 31/80 complete
+zhiyuan_objv2_train.tar.gz: part 32/80 complete
+zhiyuan_objv2_train.tar.gz: part 30/80 complete
+zhiyuan_objv2_train.tar.gz: part 29/80 complete
+zhiyuan_objv2_train.tar.gz: part 25/80 complete
+zhiyuan_objv2_train.tar.gz: part 28/80 complete
+zhiyuan_objv2_train.tar.gz: part 33/80 complete
+zhiyuan_objv2_train.tar.gz: part 34/80 complete
+zhiyuan_objv2_train.tar.gz: part 35/80 complete
+zhiyuan_objv2_train.tar.gz: part 36/80 complete
+zhiyuan_objv2_train.tar.gz: part 38/80 complete
+zhiyuan_objv2_train.tar.gz: part 37/80 complete
+zhiyuan_objv2_train.tar.gz: part 40/80 complete
+zhiyuan_objv2_train.tar.gz: part 39/80 complete
+zhiyuan_objv2_train.tar.gz: part 41/80 complete
+zhiyuan_objv2_train.tar.gz: part 42/80 complete
+zhiyuan_objv2_train.tar.gz: part 43/80 complete
+zhiyuan_objv2_train.tar.gz: part 44/80 complete
+zhiyuan_objv2_train.tar.gz: part 45/80 complete
+zhiyuan_objv2_train.tar.gz: part 46/80 complete
+zhiyuan_objv2_train.tar.gz: part 47/80 complete
+zhiyuan_objv2_train.tar.gz: part 48/80 complete
+zhiyuan_objv2_train.tar.gz: part 49/80 complete
+zhiyuan_objv2_train.tar.gz: part 50/80 complete
+zhiyuan_objv2_train.tar.gz: part 51/80 complete
+zhiyuan_objv2_train.tar.gz: part 52/80 complete
+zhiyuan_objv2_train.tar.gz: part 53/80 complete
+zhiyuan_objv2_train.tar.gz: part 54/80 complete
+zhiyuan_objv2_train.tar.gz: part 55/80 complete
+zhiyuan_objv2_train.tar.gz: part 56/80 complete
+zhiyuan_objv2_train.tar.gz: part 57/80 complete
+zhiyuan_objv2_train.tar.gz: part 58/80 complete
+zhiyuan_objv2_train.tar.gz: part 59/80 complete
+zhiyuan_objv2_train.tar.gz: part 60/80 complete
+zhiyuan_objv2_train.tar.gz: part 61/80 complete
+zhiyuan_objv2_train.tar.gz: part 62/80 complete
+zhiyuan_objv2_train.tar.gz: part 64/80 complete
+zhiyuan_objv2_train.tar.gz: part 63/80 complete
+zhiyuan_objv2_train.tar.gz: part 65/80 complete
+zhiyuan_objv2_train.tar.gz: part 66/80 complete
+zhiyuan_objv2_train.tar.gz: part 67/80 complete
+zhiyuan_objv2_train.tar.gz: part 68/80 complete
+zhiyuan_objv2_train.tar.gz: part 69/80 complete
+zhiyuan_objv2_train.tar.gz: part 70/80 complete
+zhiyuan_objv2_train.tar.gz: part 71/80 complete
+zhiyuan_objv2_train.tar.gz: part 72/80 complete
+zhiyuan_objv2_train.tar.gz: part 73/80 complete
+zhiyuan_objv2_train.tar.gz: part 74/80 complete
+zhiyuan_objv2_train.tar.gz: part 75/80 complete
+zhiyuan_objv2_train.tar.gz: part 76/80 complete
+zhiyuan_objv2_train.tar.gz: part 80/80 complete
+zhiyuan_objv2_train.tar.gz: part 77/80 complete
+zhiyuan_objv2_train.tar.gz: part 78/80 complete
+zhiyuan_objv2_train.tar.gz: part 79/80 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:15:39.841095+08:00", "pid": 2757871, "current": "train/zhiyuan_objv2_train.tar.gz", "completed_files": 1, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:15:54.250032+08:00", "pid": 2757871, "current": "val/patch0.tar.gz", "completed_files": 2, "total_files": 97, "archive_bytes": 133437539, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch0.tar.gz"}
+patch0.tar.gz: part 3/8 complete
+patch0.tar.gz: part 4/8 complete
+patch0.tar.gz: part 8/8 complete
+patch0.tar.gz: part 7/8 complete
+patch0.tar.gz: part 6/8 complete
+patch0.tar.gz: part 5/8 complete
+patch0.tar.gz: part 2/8 complete
+patch0.tar.gz: part 1/8 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:16:06.789535+08:00", "pid": 2757871, "current": "val/patch0.tar.gz", "completed_files": 2, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:16:07.548800+08:00", "pid": 2757871, "current": "val/patch1.tar.gz", "completed_files": 3, "total_files": 97, "archive_bytes": 130208111, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch1.tar.gz"}
+patch1.tar.gz: part 8/8 complete
+patch1.tar.gz: part 6/8 complete
+patch1.tar.gz: part 3/8 complete
+patch1.tar.gz: part 5/8 complete
+patch1.tar.gz: part 1/8 complete
+patch1.tar.gz: part 7/8 complete
+patch1.tar.gz: part 2/8 complete
+patch1.tar.gz: part 4/8 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:16:19.796821+08:00", "pid": 2757871, "current": "val/patch1.tar.gz", "completed_files": 3, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:16:20.525302+08:00", "pid": 2757871, "current": "val/patch2.tar.gz", "completed_files": 4, "total_files": 97, "archive_bytes": 128033873, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch2.tar.gz"}
+patch2.tar.gz: part 8/8 complete
+patch2.tar.gz: part 6/8 complete
+patch2.tar.gz: part 5/8 complete
+patch2.tar.gz: part 7/8 complete
+patch2.tar.gz: part 4/8 complete
+patch2.tar.gz: part 1/8 complete
+patch2.tar.gz: part 3/8 complete
+patch2.tar.gz: part 2/8 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:16:32.588991+08:00", "pid": 2757871, "current": "val/patch2.tar.gz", "completed_files": 4, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:16:33.314275+08:00", "pid": 2757871, "current": "val/patch3.tar.gz", "completed_files": 5, "total_files": 97, "archive_bytes": 177627047, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch3.tar.gz"}
+patch3.tar.gz: part 8/11 complete
+patch3.tar.gz: part 5/11 complete
+patch3.tar.gz: part 6/11 complete
+patch3.tar.gz: part 1/11 complete
+patch3.tar.gz: part 2/11 complete
+patch3.tar.gz: part 3/11 complete
+patch3.tar.gz: part 4/11 complete
+patch3.tar.gz: part 7/11 complete
+patch3.tar.gz: part 11/11 complete
+patch3.tar.gz: part 9/11 complete
+patch3.tar.gz: part 10/11 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:16:50.310704+08:00", "pid": 2757871, "current": "val/patch3.tar.gz", "completed_files": 5, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:16:51.319490+08:00", "pid": 2757871, "current": "val/patch4.tar.gz", "completed_files": 6, "total_files": 97, "archive_bytes": 162073470, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch4.tar.gz"}
+patch4.tar.gz: part 3/10 complete
+patch4.tar.gz: part 6/10 complete
+patch4.tar.gz: part 4/10 complete
+patch4.tar.gz: part 2/10 complete
+patch4.tar.gz: part 7/10 complete
+patch4.tar.gz: part 8/10 complete
+patch4.tar.gz: part 1/10 complete
+patch4.tar.gz: part 5/10 complete
+patch4.tar.gz: part 10/10 complete
+patch4.tar.gz: part 9/10 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:17:06.808884+08:00", "pid": 2757871, "current": "val/patch4.tar.gz", "completed_files": 6, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:17:07.722009+08:00", "pid": 2757871, "current": "val/patch5.tar.gz", "completed_files": 7, "total_files": 97, "archive_bytes": 166111080, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch5.tar.gz"}
+patch5.tar.gz: part 3/10 complete
+patch5.tar.gz: part 5/10 complete
+patch5.tar.gz: part 6/10 complete
+patch5.tar.gz: part 4/10 complete
+patch5.tar.gz: part 2/10 complete
+patch5.tar.gz: part 8/10 complete
+patch5.tar.gz: part 7/10 complete
+patch5.tar.gz: part 1/10 complete
+patch5.tar.gz: part 9/10 complete
+patch5.tar.gz: part 10/10 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:17:25.118274+08:00", "pid": 2757871, "current": "val/patch5.tar.gz", "completed_files": 7, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:17:26.068581+08:00", "pid": 2757871, "current": "val/patch6.tar.gz", "completed_files": 8, "total_files": 97, "archive_bytes": 174998623, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch6.tar.gz"}
+patch6.tar.gz: part 7/11 complete
+patch6.tar.gz: part 4/11 complete
+patch6.tar.gz: part 6/11 complete
+patch6.tar.gz: part 5/11 complete
+patch6.tar.gz: part 8/11 complete
+patch6.tar.gz: part 3/11 complete
+patch6.tar.gz: part 1/11 complete
+patch6.tar.gz: part 2/11 complete
+patch6.tar.gz: part 11/11 complete
+patch6.tar.gz: part 9/11 complete
+patch6.tar.gz: part 10/11 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:17:42.692985+08:00", "pid": 2757871, "current": "val/patch6.tar.gz", "completed_files": 8, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:17:43.685984+08:00", "pid": 2757871, "current": "val/patch7.tar.gz", "completed_files": 9, "total_files": 97, "archive_bytes": 162321798, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch7.tar.gz"}
+patch7.tar.gz: part 4/10 complete
+patch7.tar.gz: part 2/10 complete
+patch7.tar.gz: part 6/10 complete
+patch7.tar.gz: part 7/10 complete
+patch7.tar.gz: part 5/10 complete
+patch7.tar.gz: part 3/10 complete
+patch7.tar.gz: part 1/10 complete
+patch7.tar.gz: part 8/10 complete
+patch7.tar.gz: part 10/10 complete
+patch7.tar.gz: part 9/10 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:17:59.360550+08:00", "pid": 2757871, "current": "val/patch7.tar.gz", "completed_files": 9, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:18:00.297562+08:00", "pid": 2757871, "current": "val/patch8.tar.gz", "completed_files": 10, "total_files": 97, "archive_bytes": 170861681, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch8.tar.gz"}
+patch8.tar.gz: part 1/11 complete
+patch8.tar.gz: part 2/11 complete
+patch8.tar.gz: part 7/11 complete
+patch8.tar.gz: part 8/11 complete
+patch8.tar.gz: part 5/11 complete
+patch8.tar.gz: part 6/11 complete
+patch8.tar.gz: part 4/11 complete
+patch8.tar.gz: part 3/11 complete
+patch8.tar.gz: part 11/11 complete
+patch8.tar.gz: part 9/11 complete
+patch8.tar.gz: part 10/11 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:18:16.945420+08:00", "pid": 2757871, "current": "val/patch8.tar.gz", "completed_files": 10, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:18:17.922921+08:00", "pid": 2757871, "current": "val/patch9.tar.gz", "completed_files": 11, "total_files": 97, "archive_bytes": 149153822, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch9.tar.gz"}
+patch9.tar.gz: part 8/9 complete
+patch9.tar.gz: part 4/9 complete
+patch9.tar.gz: part 7/9 complete
+patch9.tar.gz: part 3/9 complete
+patch9.tar.gz: part 2/9 complete
+patch9.tar.gz: part 1/9 complete
+patch9.tar.gz: part 6/9 complete
+patch9.tar.gz: part 5/9 complete
+patch9.tar.gz: part 9/9 complete
+{"stage": "extracting", "updated_at": "2026-10-17T14:18:32.313874+08:00", "pid": 2757871, "current": "val/patch9.tar.gz", "completed_files": 11, "total_files": 97}
+{"stage": "downloading", "updated_at": "2026-10-17T14:18:33.159582+08:00", "pid": 2757871, "current": "val/patch10.tar.gz", "completed_files": 12, "total_files": 97, "archive_bytes": 155880377, "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch10.tar.gz"}
+patch10.tar.gz: part 2/10 complete
+patch10.tar.gz: part 6/10 complete
+patch10.tar.gz: part 7/10 complete
+patch10.tar.gz: part 8/10 complete
+patch10.tar.gz: part 4/10 complete
+patch10.tar.gz: part 3/10 complete
+patch10.tar.gz: part 5/10 complete
+patch10.tar.gz: part 1/10 complete
+patch10.tar.gz: part 10/10 complete

@@ -1,0 +1,26 @@
+{
+  "scope": "self_trained_checkpoint_evaluation",
+  "self_trained": true,
+  "images": 5000,
+  "model": "D-FINE-L",
+  "checkpoint": "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/output/paper_l_coco_seed0/best_stg2.pth",
+  "dataset": "coco2017",
+  "checkpoint_sha256": "e93b13325d84dcb1ddf9a8a501a278b06c7970803e2c771595783e91446a5d9c",
+  "paper_AP_percent": 54.0,
+  "metrics_percent": {
+    "AP": 53.95123817940728,
+    "AP50": 71.67673785324688,
+    "AP75": 58.74398156903532,
+    "AP_small": 36.36313341524931,
+    "AP_medium": 58.52528569296508,
+    "AP_large": 71.69093858108381,
+    "AR_1": 39.7088196294007,
+    "AR_10": 66.26871517717946,
+    "AR_100": 72.93650164048162,
+    "AR_small": 56.44588795140053,
+    "AR_medium": 77.05456237722763,
+    "AR_large": 89.20068087952217
+  },
+  "torch": "2.14.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 5090 D v2"
+}

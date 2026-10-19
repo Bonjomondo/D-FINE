@@ -1,0 +1,13 @@
+{
+  "batch_size": 32,
+  "image_size": 800,
+  "objects_per_image": 20,
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "torch": "2.14.0+cu130",
+  "synthetic_memory_probe_only": true,
+  "status": "out_of_memory",
+  "error": "CUDA out of memory. Tried to allocate 158.00 MiB. GPU 0 has a total capacity of 23.41 GiB of which 65.00 MiB is free. Including non-PyTorch memory, this process has 23.33 GiB memory in use. Of the allocated memory 22.49 GiB is allocated by PyTorch, and 254.34 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+  "seconds": 0.8977745100855827,
+  "peak_allocated_gib": 22.491862773895264,
+  "peak_reserved_gib": 22.740234375
+}

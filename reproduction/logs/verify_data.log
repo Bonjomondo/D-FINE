@@ -1,0 +1,12 @@
+{
+  "train2017": {
+    "images": 118287,
+    "annotations": 860001,
+    "missing_images": 0
+  },
+  "val2017": {
+    "images": 5000,
+    "annotations": 36781,
+    "missing_images": 0
+  }
+}

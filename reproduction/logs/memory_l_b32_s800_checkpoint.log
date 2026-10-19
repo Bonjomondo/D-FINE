@@ -1,0 +1,19 @@
+[92mIf the pretrained HGNetV2 can't be downloaded automatically. Please check your network connection.[0m
+[92mPlease check your network connection. Or download the model manually from [0mhttps://github.com/Peterande/storage/releases/download/dfinev1.0/PPHGNetV2_B4_stage1.pth[92m to [0m/home/ubuntu/文档/ZHJ_UAV/D-FINE/weight/hgnetv2/.[0m
+Loaded stage1 B4 HGNetV2 from URL.
+Loaded stage1 B4 HGNetV2 from URL.
+{
+  "batch_size": 32,
+  "image_size": 800,
+  "objects_per_image": 20,
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "torch": "2.14.0+cu130",
+  "synthetic_memory_probe_only": true,
+  "activation_offload": false,
+  "backbone_activation_checkpointing": true,
+  "status": "passed",
+  "loss": 49.572147369384766,
+  "seconds": 2.126644123112783,
+  "peak_allocated_gib": 10.90546178817749,
+  "peak_reserved_gib": 13.744140625
+}

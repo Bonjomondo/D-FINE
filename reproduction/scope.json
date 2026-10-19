@@ -1,0 +1,18 @@
+{
+  "selected_experiment": "D-FINE-L COCO main experiment",
+  "dataset": "COCO2017",
+  "epochs": 74,
+  "batch_size": 32,
+  "paper_AP_percent": 54.0,
+  "include_objects365": false,
+  "objects365": "deferred_by_user",
+  "additional_models_and_ablations": "outside_current_scope",
+  "completion_criteria": [
+    "Finish 74 epochs on the full train2017 split",
+    "Evaluate the self-trained best checkpoint on all 5000 val2017 images",
+    "Report measured AP and the comparison with paper AP 54.0"
+  ],
+  "status": "complete",
+  "completed_at": "2026-10-19T11:12:23+08:00",
+  "audited_at": "2026-10-19T15:30:31.523647+08:00"
+}

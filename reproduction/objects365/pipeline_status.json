@@ -1,0 +1,14 @@
+{
+  "stage": "deferred_by_user",
+  "updated_at": "2026-10-17T14:28:21.678301+08:00",
+  "model": "D-FINE-L",
+  "batch_size": 32,
+  "pretraining_epochs": 21,
+  "finetuning_epochs": 32,
+  "download": "val/patch9.tar.gz",
+  "completed_files": 11,
+  "total_files": 97,
+  "previous_stage": "waiting_complete_original_data",
+  "reason": "User selected the COCO-only main experiment; no automatic Objects365 downloads or training",
+  "stopped_pid": 2761957
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T10:43:12.641057+08:00",
+  "official_repository": "https://github.com/Peterande/D-FINE",
+  "commit": "956d1709314c2c6a4df6f34de232054578a7449f",
+  "upstream_tracked_files_unchanged": true,
+  "paper_protocol": {
+    "model": "D-FINE-L",
+    "epochs": 74,
+    "strong_augmentation_epochs": 72,
+    "batch_size": 32,
+    "seed": 0,
+    "base_lr": 0.00025,
+    "backbone_lr": 1.25e-05,
+    "weight_decay": 0.000125,
+    "amp": true,
+    "ema_decay": 0.9999
+  },
+  "memory_strategy": "block activation checkpointing with preserved BatchNorm buffers",
+  "model_parameters": 30724195,
+  "model_gflops_640": 91.0344,
+  "sha256": {
+    "reproduction/paper/paper.pdf": "284f73d46f92f9de3b4dcd06aa1c68bae7cb5dd2dd4b4a551d9d99177802e716",
+    "weight/hgnetv2/PPHGNetV2_B4_stage1.pth": "a72ad8d32902c90f5fa07f642034955d0ed9149c46d4d97f0e2ec36344d24bea",
+    "weight/official/dfine_l_coco.pth": "f1d76b20c06610e03fa833ac9524337635e5e74204f22f4f8721174f19303d78",
+    "reproduction/environment.lock.txt": "abd30bc273af5f8b840cfec273fca9aee49c34aa77158ca5af1e6126403e50db"
+  },
+  "official_evaluation_result": "official_l_coco_metrics.json",
+  "training_status": "Complete: 74 epochs, self-trained full-val AP 53.951238; independently verified by both COCO backends",
+  "objects365_download_manifest": "objects365/download_manifest.json",
+  "objects365_pipeline": "objects365/pipeline_status.json",
+  "scope_file": "scope.json",
+  "remaining_selected_scope": [],
+  "outside_current_scope": [
+    "Objects365 pretraining",
+    "S/M/X variants",
+    "ablations",
+    "T4 TensorRT latency"
+  ],
+  "selected_scope_complete": true,
+  "final_checkpoint_sha256": "e93b13325d84dcb1ddf9a8a501a278b06c7970803e2c771595783e91446a5d9c",
+  "final_evaluation": "self_trained_l_coco_metrics.json",
+  "final_report": "evaluation_audit/REPORT_CN.md"
+}

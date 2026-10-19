@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "images": 5000,
+  "categories": 80,
+  "predictions": 1500000,
+  "checkpoint": "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/output/paper_l_coco_seed0/best_stg2.pth",
+  "weights": "EMA",
+  "inference_dtype": "float32",
+  "input_size": [
+    640,
+    640
+  ],
+  "test_time_augmentation": false,
+  "nms": false,
+  "top_k": 300,
+  "iou_thresholds": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.8999999999999999,
+    0.95
+  ],
+  "recall_points": 101,
+  "max_detections": [
+    1,
+    10,
+    100
+  ],
+  "area_ranges": [
+    [
+      0,
+      10000000000.0
+    ],
+    [
+      0,
+      1024
+    ],
+    [
+      1024,
+      9216
+    ],
+    [
+      9216,
+      10000000000.0
+    ]
+  ],
+  "area_range_labels": [
+    "all",
+    "small",
+    "medium",
+    "large"
+  ],
+  "versions": {
+    "pycocotools": "2.0.11",
+    "faster-coco-eval": "1.8.0",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0"
+  },
+  "standard_metrics_percent": {
+    "AP": 53.95123817940728,
+    "AP50": 71.67673785324688,
+    "AP75": 58.74398156903532,
+    "AP_small": 36.36313341524931,
+    "AP_medium": 58.52528569296508,
+    "AP_large": 71.69093858108381,
+    "AR_1": 39.7088196294007,
+    "AR_10": 66.26871517717946,
+    "AR_100": 72.93650164048162,
+    "AR_small": 56.44588795140053,
+    "AR_medium": 77.05456237722763,
+    "AR_large": 89.20068087952217
+  },
+  "faster_metrics_percent": {
+    "AP": 53.95123817940728,
+    "AP50": 71.67673785324688,
+    "AP75": 58.74398156903532,
+    "AP_small": 36.36313341524931,
+    "AP_medium": 58.52528569296508,
+    "AP_large": 71.69093858108381,
+    "AR_1": 39.7088196294007,
+    "AR_10": 66.26871517717946,
+    "AR_100": 72.93650164048162,
+    "AR_small": 56.44588795140053,
+    "AR_medium": 77.05456237722763,
+    "AR_large": 89.20068087952217
+  },
+  "max_backend_difference_AP_points": 0.0,
+  "max_stored_result_difference_AP_points": 1.1102230246251565e-14,
+  "AP_by_IoU_percent": {
+    "0.50": 71.67673785324688,
+    "0.55": 70.0796852068947,
+    "0.60": 68.18672126194068,
+    "0.65": 65.95596143588389,
+    "0.70": 62.82399552512247,
+    "0.75": 58.74398156903532,
+    "0.80": 52.53688140052441,
+    "0.85": 44.14000578927466,
+    "0.90": 31.728589514250245,
+    "0.95": 13.63982223789961
+  },
+  "prediction_file": "/home/ubuntu/\u6587\u6863/ZHJ_UAV/D-FINE/reproduction/evaluation_audit/self_trained_predictions.json.gz",
+  "checkpoint_sha256": "e93b13325d84dcb1ddf9a8a501a278b06c7970803e2c771595783e91446a5d9c"
+}

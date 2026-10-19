@@ -1,0 +1,12 @@
+{
+  "stage": "deferred_by_user",
+  "updated_at": "2026-10-17T14:28:21.678301+08:00",
+  "current": "val/patch10.tar.gz",
+  "completed_files": 12,
+  "total_files": 97,
+  "archive_bytes": 155880377,
+  "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/val/images/v1/patch10.tar.gz",
+  "previous_stage": "downloading",
+  "reason": "User selected the COCO-only main experiment; no automatic Objects365 downloads or training",
+  "stopped_pid": 2757871
+}

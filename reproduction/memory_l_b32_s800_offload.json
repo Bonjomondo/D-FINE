@@ -1,0 +1,14 @@
+{
+  "batch_size": 32,
+  "image_size": 800,
+  "objects_per_image": 20,
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "torch": "2.14.0+cu130",
+  "synthetic_memory_probe_only": true,
+  "activation_offload": true,
+  "status": "passed",
+  "loss": 49.572147369384766,
+  "seconds": 18.65807024599053,
+  "peak_allocated_gib": 6.071437835693359,
+  "peak_reserved_gib": 8.390625
+}

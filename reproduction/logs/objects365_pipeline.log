@@ -1,0 +1,2 @@
+{"stage": "waiting_complete_original_data", "updated_at": "2026-10-17T14:17:59.102673+08:00", "pid": 2761957, "model": "D-FINE-L", "batch_size": 32, "pretraining_epochs": 21, "finetuning_epochs": 32, "download": "val/patch7.tar.gz", "completed_files": 9, "total_files": 97}
+{"stage": "waiting_complete_original_data", "updated_at": "2026-10-17T14:18:29.103036+08:00", "pid": 2761957, "model": "D-FINE-L", "batch_size": 32, "pretraining_epochs": 21, "finetuning_epochs": 32, "download": "val/patch9.tar.gz", "completed_files": 11, "total_files": 97}
